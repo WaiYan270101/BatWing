@@ -1,0 +1,7 @@
+The parts made with polyjet printing, deform over time, under their own weight and tension from the cables.
+
+To overcome this, I plan to print the parts out of nylon PA12. But either SLS or MJF technology used with PA12 seems unable to print some detailed features of the parts, such as the holes and guiding grooves for cables.
+
+I observed that the portions with detailed features are not critical for structural strength. Therefore, I decided to split the parts into detailed (not critical for strength) and not detailed (but critical for providing structural strength) portions. 
+
+Polyjet (with vero) will be used to print the detailed portions and, portions without fine details will be printed using PA12.

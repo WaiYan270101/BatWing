@@ -1,0 +1,5 @@
+Designing new Humerus and Radius, each separated into different portions to be printed using vero (PolyJet) and nylon PA12 (SLS or MJF).
+
+Using split to create the separated parts as the children of the main part.
+
+Modified KST_Servo horizontal holder to have strong tube holder columns. I am gonna try printing it using PLA (FDM), in one piece. Needs to find out if the slots for the tube clips could be printed accurately.

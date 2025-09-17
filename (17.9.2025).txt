@@ -1,0 +1,9 @@
+Got the 3D printed Servo Brackets with stiffened Tube Holders. The Tube Holders are very stiff and expected to operate with negligible bending during the wing folding and extension. 
+
+It turns out that FDM can print the small slots for the tube clips quite accurately. I printed one bracket with the small cable exit holes and the other without the holes. There is difficulty in removing the support material if the cable exits are printed. So, I decided that it is better to print without the cable exit and drill this hole later. I ordered a handheld electric drill and some drill bits. 
+
+New Servo Brackets will be printed to replace the old ones and to test the existing platform again.
+
+Started modifying the design of the Radius to make it suitable for printing using SLS or MJF. The portions for holding the tube clips will be printed using PolyJet. I started using 'in-context modelling', designing all the parts in one assembly to ensure better fit. 
+
+I plan to finish modifying the designs of ShoulderBracket, Humerus, Radius and one Finger first to test printing with nylon PA12.  

@@ -10,7 +10,7 @@
 "TubeOuterD"=1.2mm
 "TubeClipW"=1.5mm
 "TubeClipH"=1.5mm
-"TubeClipLock_SideL"=1.6mm
+"TubeClipLock_SideL"=1.5mm
 "TubeClipLock_W"=0.7mm
 "BasicPulleyD"=15mm
 "GrooveDepth"=0.7mm

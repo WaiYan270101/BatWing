@@ -1,0 +1,5 @@
+I found that in the newly printed servo brackets, the compartment for the locking part of the tube clip is smaller than the required size and the clip doesn't lock securely. It was also a bit hard to push the clip into the slot because the entrance just fits the clip and PLA is more rigid than vero (which the clip slots were previously printed out of).
+
+Therefore, I modified the brackets, increased the compartment size for locking, increased the size of clip entrance slightly. These modified brackets will be printed.
+
+I also finished designing the Radius. The remaining parts to be tested printing with Nylon PA12, Shoulder Bracket and one Finger, will be finished tomorrow. All the parts will be checked and submitted for printing.

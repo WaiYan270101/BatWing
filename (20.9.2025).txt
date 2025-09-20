@@ -1,0 +1,13 @@
+I have finished modifying the ShoulderBracket and Digit1n5 for printing using Nylon PA12 (SLS or MJF). 
+
+ShoulderShaft, ElbowShaft and PalmShaft will also be printed using Nylon PA12. These shafts will be under relatively high stress during flapping. It will be better if they have high strength of PA12.
+
+ShoulderBracket_V1, ShoulderShaft_V1, Humerus_V1_Bone, ElbowShaft_V1, Radius_V1_Bone, PalmShaft_V1 and Digit1n5_V1 have been checked and will be submitted to AIO studio for printing.
+
+I may need to modify the designs further if the studio finds any potential problems.
+
+Parts to be printed using vero (PolyJet) are ready. They include HumerusBallBearingCap, ElbowSidePulley of Humerus, TubeHolder blocks of Radius, and the Shoulder, Elbow and Palm Shafts.
+
+Designed ShoulderGear_V1 using spur gear from SolidWorks toolbox. I noticed that the teeth of my custom designed spur gears don't mesh efficiently during wing flapping. The tooth profile of the spur gear provided by SW toolbox allows efficient meshing. Therefore, I decided to use it.
+
+The gear attached to the servo motor for flapping will also be redesigned to match the new shoulder gear design.

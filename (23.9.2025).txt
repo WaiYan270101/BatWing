@@ -1,0 +1,9 @@
+Today, I worked on replacing the old servo brackets with the modified ones. It was very difficult to remove the cables attached to the servo pulleys, as one of the two cables attached to the pulley is glued with AB glue. The old cables for the shoulder and elbow joints have been removed.
+
+I found that the tubeclip entrance holes are a bit bigger than the clips. The reason is that the existing wing is Wing9 and I used the tubeclip dimensions intended for the latest version (Wing10) in designing the servo brackets. 
+
+I broke the clip locking chamber of one of the brackets while removing support material. So, only the bracket for the servo that drives the elbow joint can be used now. I will finish installing the elbow cable tomorrow and test the elbow movement at speeds up to 10 Hz.
+
+Finished modifying the servo brackets to be used in existing Wing9 platform. They will be printed. I will also print the improved shoulder gear and dynamixel servo gear along with the brackets.
+
+The vertical holder for Dynamixel servo was also modified to accommodate the change in flap gear size. This vertical holder will later be redesigned using 'in-context modelling'.

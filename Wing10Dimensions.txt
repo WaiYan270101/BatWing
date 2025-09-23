@@ -57,8 +57,8 @@
 "XL330_M077_T_BoltHole2HoleWidth"=16mm
 "XL330_M077_T_BoltHole2ShaftDist"=7.5mm
 "XL330_M077_T_HornHeight"=3mm
-"XL330_M077_T_HornBoltD"=2mm
-"XL330_M077_T_HornBoltHatD"=5.6mm
 "XL330_M077_T_HornD"=16mm
 "XL330_M077_T_HornScrewHoleCircleD"=12mm
 "XL330_M077_T_BoltD"=1.6mm
+"XL330_M077_T_HornScrewD"=1.9mm
+"XL330_M077_T_HornScrewHatD"=3.3mm

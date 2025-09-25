@@ -1,0 +1,20 @@
+As I have mentioned before, I will start to use in-context modelling so that different parts of the wing platform fit better. 
+
+I started by checking the models of the servo motors.
+
+I downloaded the model of the Dynamixel servo XL330_M077_T from the official website, so I will trust the accuracy of the model.
+
+But I got the model of KST DS215MG from an unofficial website, so I checked the dimensions of the model and made necessary modifications.
+
+Reviewed and updated the dimensions file of Wing10 (latest version). Deleted unused dimensions. The dimensions of servo motors are no longer necessary as in-context modelling is used.
+
+The core components that will be used in in-context modelling (their dimensions will be reference for the dimensions of other parts)
+- Platform
+- XL330_M077_T
+- KST DS215MG
+- Humerus
+- Radius
+- ShoulderBracket
+- Fingers
+
+I will start thinking about designing a partial body for membrane attachment. The core dimensions of the partial body will still be referenced to the dimensions of above core parts.

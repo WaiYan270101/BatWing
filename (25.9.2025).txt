@@ -1,0 +1,7 @@
+Today, I installed the new servo bracket and tested the elbow joint movement at 5 Hz and 10 Hz.
+
+The servo can seemingly move the elbow between extended and tucked positions (which are 60 degrees apart) at 5 Hz. And the bracket had no visible bending during this motion. No slipping was observed at both ends (servo bracket side and elbow joint side) of the tubes after about 100 cycles at 5 Hz.
+
+But the servo cannot move at 10 Hz. At 10 Hz, the servo cannot reach the target positions in time. The reason is because of the supply voltage. KST DS215MG's operating voltage is 6-8.4 V. At 6V, servo can move 60 degrees in 60 ms, a little short of 50 ms required to move at 10 Hz. The supply voltage I am using is 5V, so the servo is moving slower and cannot achieve 10 Hz. It could move at a frequency higher than 5 Hz, but I haven't tested the upper limit.
+
+8.4 V is ideal to move at 10 Hz, as the rated speed at this voltage is 0.05s/60deg. So, I would need 8.4 V power source to move the KST servos at 10 Hz.

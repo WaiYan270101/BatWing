@@ -1,0 +1,13 @@
+- Coding to read the actual angle value of Dynamixel Servo.
+- Coding to run the Dynamixel servo with a sinusoidal trajectory.
+
+Previously, I programmed the Dynamixel servo to move abruptly between positive and negative peaks of the wingbeat cycle. That caused serious vibration, which is bad for the wing structure.
+So, I started programming the Dynamixel to follow a sinusoidal trajectory which accelerates and decelerates the wing smoothly.  
+
+Following a trajectory by sending angle values to the Dynamixel at specified time points turns out to be not a good method. Dynamixel has a built-in trajectory planner, but by default, its response to a position change command is a step response. 
+
+To follow a sinusoidal trajectory, I tried using the previously mentioned method (it essentially follows a discretized sine wave pattern). But, as I decreased the time interval between the points, the servo moved slower and slower, not achieving 5 Hz. This is not a reliable method.
+
+A better method is using the Dynamixel's integrated trajectory planner which supports trapezoidal velocity profile. After calculating the equations of the position profile corresponding to the trapezoidal velocity profile, I found that such a trajectory generated between adjacent positive and negative peaks of a sine wave very closely approximates the sine wave. 
+
+For the trapezoidal velocity profile, the acceleration, constant velocity and deceleration intervals are each approximately one third of the desired time interval between the peaks. For example, for 5 Hz, the time interval between adjacent positive and negative peaks is 100 ms. To generate a position trajectory that approximates this sine wave, the acceleration time is set at 100/3 ~ 33 ms, constant velocity interval is 34 ms and deceleration time at 33 ms.

@@ -1,0 +1,7 @@
+I wrote this note on 6.10.2025. 
+
+I had some problems with programming the Dynamixel to follow a sinusoidal trajectory. 
+
+The Dynamixel seemed to be moving at a frequency lower than 5 Hz. I still need to find the reason. To find out the actual trajectory and frequency of the Dynamixel, I need to get position and time (tick) feedback from it.
+
+The position feedback is lagging behind the actual movement. I will test the dynamixel at a lower speed and see if I can get better position and time feedback.

@@ -1,0 +1,5 @@
+Today, I finished the design of the new Radius.
+
+I also started studying about Modal Analysis, which computes the resonance frequencies and their mode shapes for a structure. Moreover, the results of Modal Analysis can serve as basis for other studies like Harmonic analysis. 
+
+I think that Harmonic Analysis will help me study the deformation and stress of the BatWing under sinusoidal flapping motion. That will allow me to see harmful stresses and undesirable deformations of the structure under high frequency flapping and make appropriate design changes. 

@@ -1,0 +1,11 @@
+Today, I continued working on simulating the static deformation of the Wing skeleton under its own weight and tension of the cables.
+
+I compared the bending of the Radius under cable tension between Wing10 and Wing11 (which has Humerus and Radius redesigned to better balance the cable forces). In Wing11, the displacement of the tip of the Radius is reduced by half compared to Wing10. (for the same material, photopolymer vero). 
+
+I will stop reading about how to use BLDC motors to drive the wing motion and focus on
+
+- 	evaluating and improving the structural performance of Wing11, using Ansys static 	and dynamic simulations. 
+
+- 	attaching a membrane to Wing10 and testing its motion under aerodynamic load.
+
+To do more accurate simulations of the wing skeleton, I need to understand how to model the contacts between different parts of the skeleton, especially the contact between the joint shafts and joint members. So, I started studying contact modelling in Ansys. 

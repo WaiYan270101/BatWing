@@ -1,0 +1,13 @@
+I wrote this note on 6.10.2025. I have almost forgotten what I was doing on these days. It is not a good idea to postpone writing the notes to later.
+
+On 26.9.2025, I got the new KST servo brackets (previously, I broke the tubeclip locking compartment of the shoulder servo bracket), improved Dynamixel servo brackets and flapping gears. I worked on installing the new parts.
+
+I broke the flapping gear shaft of the shoulder brackets while installing the flapping gear. As the diameter of the shaft was a bit bigger than that of the hole in flapping gear, I filed the shaft and forcefully pushed the gear onto the shaft. The shaft has screw holes for screwing the gear onto it. The shaft is structurally weak around the screw holes and easy to crack. As I pushed the gear onto the shaft, the shaft started cracking from a screw hole and broke. I need to take care of that problem in the next design.
+
+It took quite a long time to replace the broken shoulder bracket and fit the flapping gear onto it.
+
+On 27.9.2025, as the shoulder bracket has been replaced and the improved Dynamixel brackets and flapping gears have been installed, I continued installing the new KST servo brackets. It also took time as I had to do filing, installing tube clips on the tubes of the new servo bracket, etc.
+
+On 29.9.2025, I finished installing the new cables for the elbow and shoulder and tested the complete motion. I first tested the folding and extension motion without flapping. Everything worked quite well at 5 Hz, no slipping of the tubes, no apparent loss in cable tension. 
+
+Then, flapping caused some problems. I programmed the Dynamixel servo simply to move abruptly between the upstroke peak and downstroke peak. That accelerates the skeleton very fast and causes vibrations. The vibrations caused undesirable deformation at the elbow joint and shifted the elbow cable. That is also a problem I need to solve. I plan to modify the humerus design to make the elbow joint stiffer and also modify the Dynamixel driving code (so that it accelerates and decelerates the wing smoothly).

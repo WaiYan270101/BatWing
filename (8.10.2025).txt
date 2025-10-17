@@ -1,0 +1,7 @@
+Finished designing the new Humerus. 
+
+I will print it out and test it to see if it can be printed well using FDM and if PLA has suitable stiffness. It will also allow me to check if the ball bearing can be inserted into its slot securely and can rotate well. 
+
+Collected the parts printed with nylon PA12. It turns out PA12 may not be a suitable material for the skeleton of the wing. It is tough (very hard to break), but its elastic modulus is not big enough (not stiff enough). I found that the humerus can bend quite easily, which is not desirable.
+
+I think the bat skeleton (humerus, radius and digits) also deforms and bends during flapping. I need to do some research to find out the degree of deformation in real bats. If PA12 deforms more than what is observed in real bats' skeleton, it is not suitable for this application.

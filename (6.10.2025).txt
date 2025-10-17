@@ -1,0 +1,15 @@
+After having some problems with Dynamixel's speed and getting position feedback from it, I am considering using BLDC (brushless DC) motors with FOC (field oriented control).
+
+I still need to do more thorough research to confirm the advantages of FOC controlled BLDC over normal DC servos. 
+
+Preliminary reading shows that 
+- FOC controlled BLDC are more suitable for high speed motion (like >= 10 Hz)
+- higher torque output (which will be important to deal with aerodynamics loads later)
+- low latency, more reliable position feedback
+
+Today, I am going to start modifying the design of humerus and radius to improve structural strength (reduce undesirable deformations).
+ 
+I am going to use FEA to predict structural deformation under static conditions (This will allow me to compare the performance of different designs and materials). I also want to analyze and access the structural response under dynamic conditions (during flapping). This step is for after modification of the humerus and radius.
+
+
+

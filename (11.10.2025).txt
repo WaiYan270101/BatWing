@@ -1,0 +1,7 @@
+Today, I collected the printed new Humerus. 
+
+FDM can print the compartments for the tubeclips quite accurately. But, because of some very thin parts in my design, the compartment broke when the clip was inserted. I need to modify the design of the compartment to avoid having thin columns.
+
+I did research about Trinamics tmc4671 BLDC motor driver chip. It implements the algorithm for FOC (field oriented control) in hardware, so the computationally expensive algorithm does not have to run on the main MCU. I think it could be a good choice to control the BLDC motors used in a flying bat bot. But the tmc4671 doesn't come with the power stage (which actually drives the BLDC using MOSFETs). Analog devices have breakout boards and development kits that include the tmc4671 along with the power stage and/or a MCU. These can be purchased in Hong Kong, priced around 500-1800 HKD.
+
+Another option I have found is odrive, which is a bit cheaper than the Trinamics boards. But it cannot be purchased in Hong Kong, so there will be shipping fees. In terms of performance, I think odrive and Trinamics are both very good.

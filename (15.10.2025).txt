@@ -1,0 +1,9 @@
+Today, I finished the new design of ShoulderBracket.
+
+I also made necessary modifications to the designs of Humerus and Radius. 
+
+Now, I have an assembly of the main skeleton (ShoulderBracket, Humerus and Radius).
+
+I started working on simulating the static structural response of this skeleton under its weight and tension of the cables.
+
+Simulated the skeleton, with photopolymer vero assigned as material. 

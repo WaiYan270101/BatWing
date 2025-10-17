@@ -1,0 +1,5 @@
+Today, I continued studying contact modelling in Ansys. 
+
+I also started defining appropriate contact conditions for the shafts and joint members (Humerus and Radius), so that the deformations at the shoulder and elbow joints could be evaluated more accurately. 
+
+During the last testing of Wing10, the elbow joint dislocated a bit during 5 Hz flapping. For Wing11, I will use suitable contact modelling and dynamic simulations to predict possible harmful deformation during high frequency flapping, before physical testing. 
